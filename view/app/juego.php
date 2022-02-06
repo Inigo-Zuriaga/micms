@@ -17,7 +17,7 @@
                     <br>
                     <p>
                         <strong>Fecha</strong>: <?php echo date("d/m/Y", strtotime($datos->fecha)) ?><br>
-                        <strong>Consola</strong>: <?php echo $datos->consola ?>
+                        <strong>Consola</strong>: <?php echo $datos->consola?>
                     </p>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 <?php
 namespace App\Model;
 
+//las variables de datos de la bbdd de la bbdd JUEGO
 class Juego
 {
     //Variables o atributos

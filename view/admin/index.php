@@ -1,0 +1,1 @@
+<?php echo "<strong><h3>Nombre de la persona logueada: </h3></strong>-".$_SESSION["persona"]."<br><strong><h3>Permisos:</h3></strong><strong>-Personas: </strong>". $_SESSION["personas"]."<br><strong>-Juegos: </strong>".$_SESSION["juegos"];?>

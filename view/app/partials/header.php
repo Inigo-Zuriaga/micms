@@ -20,7 +20,7 @@
     <div class="nav-wrapper">
         <!--Logo-->
         <a href="<?php echo $_SESSION['home'] ?>" class="brand-logo" title="Inicio">
-            <img src="<?php echo $_SESSION['public'] ?>img/logo1.png" alt="Logo Harry Potter">
+            <img src="<?php echo $_SESSION['public'] ?>img/logo1.png" alt="Logo">
         </a>
 
         <!--Botón menú móviles-->
@@ -70,8 +70,8 @@
 <main>
 
     <header>
-        <h1>Mi primer CMS</h1>
-        <h2>con POO, MVC, PHP y MySQL</h2>
+        <h1>CMS videojuegos</h1>
+
     </header>
 
     <section class="container-fluid">

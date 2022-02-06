@@ -4,6 +4,7 @@ namespace App\Helper;
 class ViewHelper {
 
     function vista($carpeta,$archivo,$datos=null){
+        //muestro la cabecera, el body y el footer
 
         //Llamo a la cabecera
         require("../view/$carpeta/partials/header.php");
@@ -18,7 +19,9 @@ class ViewHelper {
 
     public function redireccionConMensaje($ruta, $tipo, $texto){
 
+        //mensajito que nos dice si nos hemos legueado
         $_SESSION['mensaje'] = array("tipo" => $tipo, "texto" => $texto);
+        //para mostrarlo
         header("Location:".$_SESSION["home"].$ruta);
 
     }

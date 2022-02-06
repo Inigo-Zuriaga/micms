@@ -1,6 +1,6 @@
 <?php
 namespace App\Model;
-
+//las variables de datos de la bbdd PERSONA
 class Persona {
 
     //Variables o atributos

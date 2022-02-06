@@ -24,7 +24,7 @@ class PersonaController
 
     public function admin(){
 
-        echo "eoooeo";
+
         //Compruebo permisos
         $this->view->permisos();
 
@@ -37,8 +37,6 @@ class PersonaController
 
         //Si ya está autenticado, le llevo a la página de inicio del panel
         if (isset($_SESSION['persona'])){
-
-            echo "erwrwr";
             $this->admin();
 
         }
@@ -71,7 +69,7 @@ class PersonaController
                     $fecha = $ahora->format("Y-m-d H:i:s");
                     $this->db->exec("UPDATE personas SET fecha_acceso='$fecha' WHERE persona='$campo_usuario'");
 
-                    echo "persona:".$_SESSION["persona"]."; personas:". $_SESSION["personas"]."; juegos:".$_SESSION["juegos"];
+
                     //Redirección con mensaje
                     $this->view->redireccionConMensaje("admin","green","Bienvenido al panel de administración.");
 
